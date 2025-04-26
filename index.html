@@ -1,11 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WhatsApp - Account Banned</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #111b21;
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    /* Top bar */
+    .navbar {
+      background-color: #202c33;
+      padding: 15px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .navbar span {
+      margin-left: 10px;
+    }
+    /* Main content */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .content img {
+      width: 80px;
+      margin-bottom: 30px;
+    }
+    .content h1 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .content p {
+      color: #8696a0;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 20px 30px 20px;
+    }
+    .content a {
+      color: #00a884;
+      text-decoration: none;
+    }
+    /* Button */
+    .button-container {
+      padding: 20px;
+      text-align: center;
+      background-color: #111b21;
+      margin-bottom: 5px;
+    }
+    .button-container a {
+      background-color: #00a884;
+      padding: 12px 30px;
+      border-radius: 25px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+    .button-container a:hover {
+      background-color: #019374;
+    }
+  </style>
 </head>
 <body>
-    testing....
+  <!-- Navbar -->
+  <div class="navbar">
+    WhatsApp
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <img src="ban.jpg" alt="Banned Icon" style="width: 140px; height: 140px;" >
+    <h1>This account cannot use WhatsApp</h1>
+    <p>We've completed our review and found this account's activity goes against WhatsApp's <a href="#">terms of service</a>.</p>
+  </div>
+
+  <!-- Button -->
+  <div class="button-container">
+    <a href="#">Register new number</a>
+  </div>
 </body>
 </html>
